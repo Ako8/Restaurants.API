@@ -1,0 +1,23 @@
+{
+  "profiles": {
+    "Restaurants.API": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "https://localhost:51374/swagger/index.html",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:51374;http://localhost:51375"
+    },
+    "WSL": {
+      "commandName": "WSL2",
+      "launchBrowser": true,
+      "launchUrl": "https://localhost:51374",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "ASPNETCORE_URLS": "https://localhost:51374;http://localhost:51375"
+      },
+      "distributionName": ""
+    }
+  }
+}
